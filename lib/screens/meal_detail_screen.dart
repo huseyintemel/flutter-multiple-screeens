@@ -67,7 +67,9 @@ class MealDetailScreen extends StatelessWidget {
                   ),
                   const Divider(),
                 ],);
-              }),
+              },
+              itemCount: selectedMeal.steps.length
+              ),
             ),
           ],
         ),
