@@ -33,10 +33,10 @@ class MainDrawer extends StatelessWidget {
           ),
           const SizedBox(height: 20,),
           buildListTile('Meals', Icons.restaurant,(){
-            Navigator.of(context).pushNamed('/');
+            Navigator.of(context).pushReplacementNamed('/');
           }),
           buildListTile('Filters', Icons.filter,(){
-            Navigator.of(context).pushNamed(FiltersScreen.routeName);
+            Navigator.of(context).pushReplacementNamed(FiltersScreen.routeName);
           }),
     
         ] 
